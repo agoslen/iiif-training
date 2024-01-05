@@ -1,0 +1,119 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://agoslen.github.io/iiif-training/manifests/anna-london-manifest-3images3.json",
+  "@type" : "sc:Manifest",
+  "label" : "Anna's Second London Manifest",
+  "metadata" : [ {
+    "label" : "Author",
+    "value" : "Anna Goslen"
+  }, {
+    "label" : "Date",
+    "value" : "2023-11"
+  } ],
+  "description" : [ {
+    "@value" : "Photos from Anna's London trip",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution" : "Copyright Anna Goslen released as Creative Commons",
+  "sequences" : [ {
+    "@id" : "http://51b0039d-d8a7-4325-86ad-291f6dcd54b3",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "viewingHint" : "paged",
+    "canvases" : [ {
+      "@id" : "http://97d52084-470d-446b-9e9b-d8c1fb8c72e1",
+      "@type" : "sc:Canvas",
+      "label" : "Borough Market sign",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://a0ebbb47-555d-4a2a-ac19-c609ab6e474d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/borough-market/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/borough-market",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://97d52084-470d-446b-9e9b-d8c1fb8c72e1"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://17b6533b-c263-40fd-9f61-b68a4a2f866c",
+      "@type" : "sc:Canvas",
+      "label" : "Kensington street",
+      "height" : 4032,
+      "width" : 3024,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://9b6be2af-d78d-4ca0-b890-1fa4c7c5ecc4",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/kensington_202401/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/kensington_202401",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 4032,
+          "width" : 3024
+        },
+        "on" : "http://17b6533b-c263-40fd-9f61-b68a4a2f866c"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://b58b57e8-e983-4590-a360-588a156bd8cc",
+      "@type" : "sc:Canvas",
+      "label" : "Lake in Hyde Park",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0c803251-5eb9-41c6-882e-2c8e9c528817",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/hydepark/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/hydepark",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://b58b57e8-e983-4590-a360-588a156bd8cc"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://97d52084-470d-446b-9e9b-d8c1fb8c72e1" ]
+  } ]
+}
