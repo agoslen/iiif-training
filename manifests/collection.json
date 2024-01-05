@@ -1,0 +1,13 @@
+{
+  "id" : "https://agoslen.github.io/iiif-training/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in agoslen/iiif-training project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://agoslen.github.io/iiif-training/manifests/anna-london-manifest-3images3.json",
+    "label" : "Anna's Second London Manifest"
+  } ]
+}
