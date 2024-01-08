@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://agoslen.github.io/iiif-training/annotations/1e6ab6c4ff11a789fd785ea4c2e61535.json" ],
+  "@id" : "https://agoslen.github.io/iiif-training/annotations/collection.json",
+  "label" : "All annotations loaded in agoslen/iiif-training project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
