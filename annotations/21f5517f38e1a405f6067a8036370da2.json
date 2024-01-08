@@ -1,0 +1,39 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Ducks",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Ducks</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/37335065",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-01-08T17:29:15",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1704734955386",
+    "dcterms:modified" : "2024-01-08T17:29:15",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://agoslen.github.io/iiif-training/manifests/anna-london-manifest-3images3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=296,1296,1255,208"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M295.81818,1295.73262h627.63102v0h627.63102v104.09091v104.09091h-627.63102h-627.63102v-104.09091z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_42515449-f239-43ce-90ff-eba968a92f6a\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://b58b57e8-e983-4590-a360-588a156bd8cc"
+    } ]
+  } ],
+  "@id" : "https://agoslen.github.io/iiif-training/annotations/21f5517f38e1a405f6067a8036370da2.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
