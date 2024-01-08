@@ -1,0 +1,72 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Market sign",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Market sign</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/37335065",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-01-05T21:43:13",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1704490993335",
+    "dcterms:modified" : "2024-01-05T21:43:13",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://agoslen.github.io/iiif-training/manifests/anna-london-manifest-3images3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=796,1735,1446,1075"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M795.72657,2602.38879l654.08353,-433.77953v0l654.08353,-433.77953l68.82626,103.78112l68.82626,103.78112l-654.08353,433.77953l-654.08353,433.77953l-68.82626,-103.78112z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:-33.551810385482334,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_31eb89ee-68fc-4a37-ba91-801a674a062d\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://97d52084-470d-446b-9e9b-d8c1fb8c72e1"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Window",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Window</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/37335065",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-01-05T21:42:31",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1704490951517",
+    "dcterms:modified" : "2024-01-05T21:42:31",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://agoslen.github.io/iiif-training/manifests/anna-london-manifest-3images3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=2990,356,1042,940"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2989.72291,816.19629l373.31363,-230.07737v0l373.31363,-230.07737l147.82491,239.85434l147.82491,239.85434l-373.31363,230.07737l-373.31363,230.07737l-147.82491,-239.85434z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:-31.645993089022436,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_8e1d949f-1792-4628-9186-1cecd9b4d9da\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://97d52084-470d-446b-9e9b-d8c1fb8c72e1"
+    } ]
+  } ],
+  "@id" : "https://agoslen.github.io/iiif-training/annotations/1e6ab6c4ff11a789fd785ea4c2e61535.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
