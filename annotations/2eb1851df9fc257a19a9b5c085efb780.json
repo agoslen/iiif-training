@@ -1,0 +1,72 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Sunset",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Sunset</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/37335065",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-01-05T21:44:15",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1704491055783",
+    "dcterms:modified" : "2024-01-05T21:44:15",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://agoslen.github.io/iiif-training/manifests/anna-london-manifest-3images3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1383,1879,784,821"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1383.3262,1879.24064h391.80214v0h391.80214v410.66845v410.66845h-391.80214h-391.80214v-410.66845z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_e82aebdb-5ce4-4490-bfa7-b6d650be3804\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://17b6533b-c263-40fd-9f61-b68a4a2f866c"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Balcony plant",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Balcony plant</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/37335065",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-01-05T21:43:57",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1704491037034",
+    "dcterms:modified" : "2024-01-05T21:43:57",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://agoslen.github.io/iiif-training/manifests/anna-london-manifest-3images3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=316,1429,263,422"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M316.03209,1429.15009h131.71658v0h131.71658v211.2246v211.2246h-131.71658h-131.71658v-211.2246z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_dec52c5c-213f-4afd-bdfc-3c1773f6163e\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://17b6533b-c263-40fd-9f61-b68a4a2f866c"
+    } ]
+  } ],
+  "@id" : "https://agoslen.github.io/iiif-training/annotations/2eb1851df9fc257a19a9b5c085efb780.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
